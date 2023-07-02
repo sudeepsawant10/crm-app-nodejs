@@ -1,0 +1,34 @@
+Nodejs and Expressjs
+
+Expressjs:
+- allow us to build web server and api endpoints
+npm install express --save
+
+moongose:
+- for modeling database and built-in-tools to help us with validation, business-hook ,etc
+npm i mongoose
+
+Babel
+- to compile js
+
+devdependencies:
+- npm i --save-dev @babel/core @babel/cli @bable/node @babel/preset-env
+
+nodemon
+i nodemon body-parser
+
+RESTful APIs
+- to do transactions with a back end
+- 
+nodemon ./index.js --exec babel-node
+- To start server automatically and restart on changes
+
+controllers:
+- get information into endpoints
+
+routes: endpoints
+
+models: schema model for db
+
+Basics of middleware and uses:
+- middleware used to call the function or other thing

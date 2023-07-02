@@ -1,0 +1,31 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudeepsawant10/crm-app-nodejs.git"
+  },
+  "author": "Sudeep Sawant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudeepsawant10/crm-app-nodejs/issues"
+  },
+  "homepage": "https://github.com/sudeepsawant10/crm-app-nodejs#readme",
+  "dependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/node": "^7.22.5",
+    "babel-cli": "^6.26.0"
+  }
+}
