@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-
+// schema for mongodb
 const Schema = mongoose.Schema;
 
 export const ContactSchema = new Schema({
